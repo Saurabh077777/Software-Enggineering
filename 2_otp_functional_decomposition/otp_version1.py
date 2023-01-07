@@ -5,7 +5,6 @@ import smtplib  #simple message transfer protocol#library to send email to users
 
 n=(int(input("Enter your range of otp ")))  #getting the input for length of otp
 
-
 #function to generate otp 
 def generate_otp(n):
     OTP=""
@@ -45,4 +44,3 @@ def send_email():
 
 #send emailfunction called
 send_email()
-
